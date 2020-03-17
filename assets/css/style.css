@@ -1,0 +1,216 @@
+/* #c4292a Logo */
+/* #2e99bc Logo */
+/* #dcdbdb Logo */
+/* #a9a8a8 Logo */
+/* #333232 Logo */
+/* #5D8000 GoFundMe */
+/* New color options */
+/* #3397c3 */
+/* #cc0000 */
+
+/**
+*
+*
+*
+* Bootstrap Override
+*
+*
+*
+*/
+/* Alerts */
+.alert-danger {
+  background-color: #c26161;
+  border-bottom: 0;
+  border-left: 8px solid #ad0000;
+  border-right: 0;
+  border-top: 0;
+  color: #ffffff;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1rem;
+  padding: 0;
+  text-align: center;
+}
+.alert-success {
+  background-color: #78c261;
+  border-bottom: 0;
+  border-left: 8px solid #239911;
+  border-right: 0;
+  border-top: 0;
+  color: #ffffff;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1rem;
+  padding: 0;
+  text-align: center;
+}
+
+/* Buttons */
+.btn-outline {
+  color: #2e99bc;
+  border-color: #2e99bc;
+  font-weight: 400;
+}
+/* Button Attributes */
+.btn-outline:hover {
+  color: #ffffff;
+  background-color: #2e99bc;
+  border-color: #2e99bc;
+}
+.btn-outline:focus, .btn-outline.focus {
+  box-shadow: none;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 0 8%;
+}
+
+/* Columns (Blocks) */
+.col-lg-5, .col-md-8, .col-sm-2 {
+  padding-left: 0;
+  padding-right: 0;
+}
+.col-lg-2 {
+  min-height: 100px;
+}
+.col-md-8 {
+  margin: 0 auto;
+}
+
+/* Footer (Use <p> as well) */
+.footer {
+  background-color: #333232;
+  border: 0;
+  color: #ffffff;
+  font-size: .8rem;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 200;
+  line-height: 1.5;
+  margin: 0;
+  padding: 10px 0;
+  position: relative;
+  text-align: center;
+}
+
+/* Inputs */
+.form-control {
+  border-color: #ffffff;
+  color: #2e99bc;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+}
+.form-control:focus {
+  border-color: #2e99bc;
+  outline: 0;
+  box-shadow: none;
+}
+
+/* Navbar */
+.navbar{
+  background-color: #2e99bc;
+  border-bottom: solid 1.5px #333232;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+.nav-item {
+  padding-left: 1rem;
+  text-align: center;
+}
+.nav-link {
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+.nav-link:hover {
+  color: #c4292a;
+}
+.navbar-collapse.collapse.in {
+  display: block!important;
+}
+/* Navbar Attributes */
+.navbar-dark:focus {
+  outline: none;
+  border: none;
+  -moz-outline-style: none;
+}
+
+/* Rows */
+.row {
+  margin: 0 auto;
+}
+
+/**
+*
+*
+*
+* Styles CSS
+*
+*
+*
+*/
+
+/* Element Selectors */
+h1 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  position: relative;
+  -moz-animation: fadeInRight 0.3s 1s ease-in-out forwards;
+  -webkit-animation: fadeInRight 0.3s 1s ease-in-out forwards;
+  animation: fadeInRight 0.3s 1s ease-in-out forwards;
+}
+h2 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  position: relative;
+  -moz-animation: fadeInRight 0.3s 1s ease-in-out forwards;
+  -webkit-animation: fadeInRight 0.3s 1s ease-in-out forwards;
+  animation: fadeInRight 0.3s 1s ease-in-out forwards;
+  text-align: center;
+}
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  line-height: 2.5;
+  margin-bottom: 1rem;
+  opacity: 0.75;
+}
+
+/* Positioning */
+.padslhr {
+  padding-left: 4.4%;
+  padding-right: 4.4%;
+}
+
+/* Sections */
+.sb {
+  background-color: #2e99bc;
+  color: #ffffff;
+  padding-top: 5%;
+  padding-bottom: 100px;
+  min-height: 680px;
+}
+.sw {
+  padding-top: 5%;
+  padding-bottom: 100px;
+  min-height: 680px;
+}
+.s1hr {
+  background-color: #333232;
+  border-radius: 25px;
+  min-height: 387.375px;
+}
+.s2hr {
+  height: 516.5px;
+}
+
+/* Text */
+.logoTxt {
+  color: #ffffff;
+  cursor: default;
+  font-weight: 700;
+  font-size: 2em;
+  margin-bottom: 0;
+  padding-left: 1rem;
+}
